@@ -35,3 +35,21 @@
     position: relative;
     z-index: 2;
 }
+
+/* Desktop Media Query */
+
+@media screen and (min-width: 1024px) {
+
+    .possible-container {
+        gap: 100px;
+    }
+
+
+    .possible-text-img {
+        width: 50%;
+    }
+
+    .chess-piece-img {
+        width: 20%;
+    }
+}

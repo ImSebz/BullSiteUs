@@ -31,7 +31,24 @@
     padding-left: 1px;
 }
 
+.with-us-text {
+    display: block;
+}
+
 
 .creativity-text {
     color: #E74815;
+}
+
+/* Desktop Media Query */
+
+@media (min-width: 1024px) {
+
+    .slogan-content {
+        width: 80%;
+    }
+
+    .with-us-text {
+        margin-top: 3px;
+    }
 }

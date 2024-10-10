@@ -1,4 +1,4 @@
-.header-content {
+.header-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,11 +13,31 @@
 
 .bull-welcome-img {
     width: 60%;
-    margin: auto;
 }
 
 .bull-asset-img {
     width: 40%;
     position: absolute; 
     right: -23%;
+}
+
+/* Desktop Media Query */
+
+@media (min-width: 1024px) {
+
+    .header-container {
+        padding: 50px;
+        gap: 10%;
+        justify-content: center;
+    }
+
+    .bull-welcome-img {
+        width: 33%;
+    }
+
+    .bull-asset-img {
+        width: 33%;
+        right: 0;
+        position: static; 
+    }
 }

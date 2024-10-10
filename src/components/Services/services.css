@@ -55,6 +55,8 @@
 .service-card p {
     max-height: 0;
     overflow: hidden;
+    font-family: 'Tungsten-Book';
+    font-weight: bold;
     transition: max-height 0.3s ease, opacity 0.3s ease;
     font-size: 1.2rem;
     line-height: 1.2;
@@ -69,4 +71,13 @@
 .service-card p.hide {
     max-height: 0;
     opacity: 0;
+}
+
+/* Desktop Media Query */
+
+@media (min-width: 763px) {
+    .services-container {
+        flex-direction: row;
+        padding: 70px;
+    }
 }

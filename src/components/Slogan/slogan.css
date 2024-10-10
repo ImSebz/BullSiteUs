@@ -2,8 +2,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000;
     padding: 25px;
+    background-image: url('../../assets/fondo_slogan.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(1);
 }
 
 .slogan-content {
@@ -13,6 +16,7 @@
     text-transform: uppercase;
     line-height: 1.1;
     font-size: 1.2rem;
+
 }
 
 .always-text {

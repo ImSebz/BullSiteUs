@@ -1,7 +1,7 @@
 import React from 'react';
 import './header.css';
-import bullWelcome from '../../assets/bull-welcome.png';
-import bullAsset from '../../assets/bull-asset.png';
+import bullWelcome from '../../assets/bull_welcome.png';
+import bullAsset from '../../assets/bull_asset.png';
 
 export const Header = () => {
     return (

@@ -3,12 +3,15 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #000;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     padding: 20px;
 }
 
 .service-img {
-    width: 80%;
+    width: 75%;
+    margin-bottom: 20px;
 }
 
 .service-card {
@@ -29,7 +32,7 @@
 
 .service-card h2 {
     transition: color 0.3s ease;
-    font-size: 2.2rem;
+    font-size: 2rem;
 }
 
 .service-card h2 span {
@@ -46,12 +49,13 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease, opacity 0.3s ease;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    line-height: 1.2;
     opacity: 0;
 }
 
 .service-card p.show {
-    max-height: 400px; /* Ajusta este valor según el contenido */
+    max-height: 400px;
     opacity: 1;
 }
 

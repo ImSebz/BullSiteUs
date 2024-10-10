@@ -4,7 +4,8 @@ import { Slogan } from './components/Slogan/Slogan';
 import { Services } from './components/Services/Services'; 
 import { PossibleInfo } from './components/PossibleInfo/PossibleInfo'; 
 import { Contact } from './components/Contact/Contact'; 
-
+import { Footer } from './components/Footer/Footer';
+ 
 function App() {
 
   return (
@@ -14,6 +15,7 @@ function App() {
       <Services/>
       <PossibleInfo/>
       <Contact/>
+      <Footer/>
     </>
   )
 }

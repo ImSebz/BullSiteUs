@@ -1,0 +1,11 @@
+.footer-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.footer-line {
+    background-color: #E74815;
+    height: 10px;
+    width: 100%;
+}

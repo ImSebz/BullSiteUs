@@ -34,7 +34,7 @@
 
 .service-card h2 span {
     display: block;
-    font-size: 1.25rem;
+    font-size: 1.3rem;
 }
 
 .service-card h2.active {
@@ -46,11 +46,12 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease, opacity 0.3s ease;
+    font-size: 1.1rem;
     opacity: 0;
 }
 
 .service-card p.show {
-    max-height: 200px; /* Ajusta este valor según el contenido */
+    max-height: 400px; /* Ajusta este valor según el contenido */
     opacity: 1;
 }
 

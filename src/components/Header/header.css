@@ -1,0 +1,20 @@
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    overflow: hidden;
+    position: relative;
+    padding: 20px;
+}
+
+.bull-welcome-img {
+    width: 60%;
+    margin: auto;
+}
+
+.bull-asset-img {
+    width: 40%;
+    position: absolute; 
+    right: -23%;
+}

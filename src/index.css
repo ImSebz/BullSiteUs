@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "BebasNeue";
+  src: url("/public/fonts/BebasNeue-Bold.ttf") format("truetype");
+}
+
+/* Import OpenSans-Regular */
+@font-face {
+  font-family: "OpenSans";
+  src: url("/public/fonts/OpenSans-Regular.ttf") format("truetype");
+}
+
+/* Import Tungsten-Bold */
+@font-face {
+  font-family: "Tungsten-Bold";
+  src: url("/public/fonts/Tungsten-Bold.ttf") format("truetype");
+}
+
+/* Import Tungsten-Book */
+@font-face {
+  font-family: "Tungsten-Book";
+  src: url("/public/fonts/Tungsten-Book.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+}

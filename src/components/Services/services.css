@@ -39,12 +39,6 @@
     transition: background-color 0.3s ease;
     -webkit-tap-highlight-color: transparent;
     text-transform: uppercase;
-    position: relative; /* Necesario para posicionar la flecha */
-}
-
-.service-card:hover {
-    background-color: rgba(128, 128, 128, 0.8);
-    border: 3px solid #E74815;
 }
 
 .service-card h2 {
@@ -87,7 +81,7 @@
 .service-content {
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Asegura que la flecha esté a la derecha */
+    justify-content: space-between;
 }
 
 .arrow {
@@ -97,7 +91,7 @@
 }
 
 .arrow.open {
-    transform: rotate(180deg); /* Rota la flecha hacia arriba cuando está abierta */
+    transform: rotate(180deg);
 }
 
 /* Desktop Media Query */

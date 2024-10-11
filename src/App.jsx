@@ -1,5 +1,6 @@
 import './App.css';
 import { Header } from './components/Header/Header';
+import { Multimedia } from './components/Multimedia/Multimedia';
 import { Slogan } from './components/Slogan/Slogan';
 import { Services } from './components/Services/Services'; 
 import { PossibleInfo } from './components/PossibleInfo/PossibleInfo'; 
@@ -12,6 +13,7 @@ function App() {
     <>
       <Header/>
       <Slogan/>
+      {/* <Multimedia/> */}
       <Services/>
       <PossibleInfo/>
       <Contact/>

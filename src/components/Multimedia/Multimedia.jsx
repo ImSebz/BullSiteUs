@@ -5,12 +5,12 @@ export const Multimedia = () => {
     return (
         <div className='multimedia-container'>
             <iframe
-                src="https://www.youtube.com/embed/3cAPn0S61-o?si=j3LfuCAplMtxp7Xk"
+                src="https://www.youtube.com/embed/UH4DCExjyBs?si=6WCSIRP4aQn-hhGg"
                 title="YouTube video player"
-                frameborder="0"
+                frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen>
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen>
             </iframe>
         </div>
     )

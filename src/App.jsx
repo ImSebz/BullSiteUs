@@ -13,7 +13,7 @@ function App() {
     <>
       <Header />
       <Slogan />
-      {/* <Multimedia /> */}
+      <Multimedia />
       <Services />
       <PossibleInfo />
       <Contact />

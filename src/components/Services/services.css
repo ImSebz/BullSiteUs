@@ -41,6 +41,11 @@
     text-transform: uppercase;
 }
 
+.service-card:hover {
+    background-color: rgba(128, 128, 128, 0.8);
+    border: #E74815 solid 3px;
+}
+
 .service-card h2 {
     transition: color 0.3s ease;
     font-size: 2rem;

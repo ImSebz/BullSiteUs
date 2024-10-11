@@ -2,12 +2,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     width: 100%;
+    padding: 25px;
 }
 
 .multimedia-container iframe {
     width: 100%;
-    height: 100%;
     border: none;
+}
+
+/* Desktop Media Query */
+
+@media (min-width: 763px) {
+    .multimedia-container {
+        height: 100vh;
+        padding: 50px;
+    }
+
+    .multimedia-container iframe {
+        height: 100%;
+    }
 }

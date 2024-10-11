@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './services.css';
 import serviceImg from '../../assets/services.png';
+import serviceImgDesktop from '../../assets/services_desktop.png';
 
 export const Services = () => {
     const [activeIndex, setActiveIndex] = useState(null);
@@ -12,6 +13,7 @@ export const Services = () => {
     return (
         <div className='services-container'>
             <img className='service-img' src={serviceImg} alt="" />
+            <img className='service-img-desktop' src={serviceImgDesktop} alt="" />
 
             <div className='service-card-container'>
 

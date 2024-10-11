@@ -13,3 +13,54 @@
 .contact-mobile-img {
     width: 100%;
 }
+
+.contact-desktop-info {
+    display: none;
+}
+
+/* Desktop Media query */
+
+@media (min-width: 1024px) {
+    .contact-container {
+        padding: 20px 0 0 0;
+    }
+
+    .contact-mobile-img {
+        display: none;
+    }
+
+    .contact-desktop-info {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        gap: 5%;
+    }
+
+    .contact-desktop-img-container {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact-desktop-img {
+        width: 100%;
+    }
+
+    .contact-text-img {
+        width: 65%;
+    }
+
+    .contact-info {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: left;
+        gap: 20px;
+        flex-direction: column;
+        color: #B3B3B3;
+        font-family: 'OpenSans';
+        font-size: 2rem;
+        margin-right: 2%;
+    }
+
+}

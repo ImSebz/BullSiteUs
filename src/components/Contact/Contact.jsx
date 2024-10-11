@@ -16,7 +16,7 @@ export const Contact = () => {
                     <img className='contact-text-img' src={ contactText } alt="Contact Text" />
                     <p>Juan Felipe Vega</p>
                     <p>jfvega@bullmarketing.com</p>
-                    <p>Head of planning</p>
+                    <p>Head of Planning</p>
                 </div>
             </div>
 

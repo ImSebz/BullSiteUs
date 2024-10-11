@@ -39,6 +39,12 @@
     transition: background-color 0.3s ease;
     -webkit-tap-highlight-color: transparent;
     text-transform: uppercase;
+    position: relative;
+}
+
+.service-card:hover {
+    background-color: rgba(128, 128, 128, 0.8);
+    border: 3px solid #E74815;
 }
 
 .service-card h2 {
@@ -49,6 +55,7 @@
 .service-card h2 span {
     display: block;
     font-size: 1.3rem;
+    font-family: 'Tungsten-Book';
 }
 
 .service-card h2.active {
@@ -75,6 +82,25 @@
 .service-card p.hide {
     max-height: 0;
     opacity: 0;
+}
+
+.service-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.arrow {
+    font-size: 1.5rem;
+    position: absolute;
+    right: 0;
+    top: -40px;
+    transition: transform 0.3s ease;
+}
+
+.arrow.open {
+    transform: rotate(180deg);
 }
 
 /* Desktop Media Query */

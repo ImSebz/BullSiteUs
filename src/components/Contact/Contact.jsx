@@ -17,6 +17,7 @@ export const Contact = () => {
                     <p>Juan Felipe Vega</p>
                     <p>jfvega@bullmarketing.com</p>
                     <p>Head of Planning</p>
+                    <p>+1 (954) 560-1236 (2)</p>
                 </div>
             </div>
 
